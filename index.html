@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <select class="select">
-    </select>
-    <p class="namePays"></p>
-    <p class="populationPays"></p>
-    <p class="capitalPays"></p>
+    <h1>Information des différents pays du monde</h1>
+    <main class="container">
+        <div class="divImage">
+            <img class="imgFlag" scr="fond-gris.jpg">
+        </div>
+        <select class="select">
+            <option value="">Choisir un pays</option>
+        </select>
+        <div class="divText">
+            <p>Population : <span class="populationPays"></span></p>
+            <p>Capitale : <span class="capitalPays"></span></p>
+            <p>Region : <span class="regionPays"></span></p>
+            <p>Nom réel dans le pays : <span class="nativename"></span></p>
+            <p>Nom en France : <span class="nameFrench"></span></p>
+            <p>Pays au frontière : <span class="frontiere"></span></p>
+        </div>
+    </main>
 </body>
 </html>

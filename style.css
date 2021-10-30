@@ -1,3 +1,53 @@
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./Police/Roboto-Medium.ttf");
+}
+body {
+  font-family: Roboto-Medium;
+  background-image: url("./fond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: cornsilk;
+}
+
+.container {
+  width: 1200px;
+  height: 90%;
+  margin: auto;
+}
+.container .divImage {
+  text-align: center;
+}
+.container .divImage .imgFlag {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.container select {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 5px 10px;
+  background: #666;
+  color: white;
+  width: 500px;
+  font-size: 20px;
+}
+.container .divText {
+  width: 500px;
+  margin: auto;
+}
+.container .divText p {
+  margin: 20px;
+  color: #d3d3d3;
+}
+.container .divText span {
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
