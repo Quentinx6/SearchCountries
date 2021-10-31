@@ -5,8 +5,9 @@
 body{
     font-family: Roboto-Medium;
     background-image: url("./fond.png");
+    background-position: center center;
     background-repeat: no-repeat;
-    // background-position: center;
+    background-attachment: fixed;
     background-size: cover;
 }
 h1{
@@ -15,7 +16,7 @@ h1{
     color: cornsilk;
 }
 .container{
-    width: 1200px;
+    width: 80%;
     height: 90%;
     margin: auto;
     .divImage{
@@ -45,6 +46,48 @@ h1{
         }
         span{
             color: white;
+        }
+    }
+}
+
+/*             Tablette Responsive             */
+@media screen and (max-width: 1025px) and (min-width: 600px){
+    body{
+        font-size: 23px;
+        .container{
+            .divImage{
+                margin: 50px auto;
+            }
+            .select{
+                margin: 50px auto;
+            }
+            .divText{
+                p{
+                    margin: 50px auto;
+                }
+
+            }
+        }
+    }
+}
+
+/*             Mobile Responsive             */
+@media screen and (max-width: 599px){
+    body{
+        .container{
+            width: 95%;
+            .divImage{
+                width: 100%;
+                .imgFlag{
+                    width: 100%;
+                }
+            }
+            .select{
+                width: 100%;
+            }
+            .divText{
+                width: 100%;
+            }
         }
     }
 }
